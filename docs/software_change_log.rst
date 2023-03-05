@@ -100,7 +100,7 @@ All botposes are printed directly in the field-space visualizer in the web inter
 
 Easier access to 3D Data (Breaking Changes)
 --------------------------------------------
-RobotPose in TargetSpace is arguably the most useful data coming out of Limelight with repsect to AprilTags. Using this alone, you can perfectly alighn a drivetrain with an AprilTag on the field.
+RobotPose in TargetSpace is arguably the most useful data coming out of Limelight with respect to AprilTags. Using this alone, you can perfectly align a drivetrain with an AprilTag on the field.
 Until now, this data has been buried in the JSON dump. In 2023.2, all 3D data for the primary in-view AprilTag is accessible over NT.
 
 * NetworkTables Key "campose" is now "camerapose_targetspace"
@@ -188,7 +188,7 @@ Here’s a diagram demonstrating one aspect of how this works with a simple plan
 
 .. image:: https://downloads.limelightvision.io/documents/MEGATAG.png
 
-Nerual Net upload is being pushed to 2023.2!
+Neural Net upload is being pushed to 2023.2!
 
 
 2023.0.0 and 2023.0.1 (1/11/23)
@@ -215,7 +215,7 @@ Features, Changes, and Bugfixes
 
 * More Resolution Options
 
-	* There two new capture resolutsions for LL1, LL2, and LL2+: 640x480x90fps, and 1280x960x22fps
+	* There two new capture resolutions for LL1, LL2, and LL2+: 640x480x90fps, and 1280x960x22fps
 
 * Optimized Web Interface
 
